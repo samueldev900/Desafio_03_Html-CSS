@@ -9,6 +9,7 @@ var first = document.getElementById('ifirst')
 var second = document.getElementById('isecond')
 var x = document.getElementById('rating')
 
+
 n1.addEventListener("click",selectBtn1)
 n2.addEventListener("click",selectBtn2)
 n3.addEventListener("click",selectBtn3)
@@ -16,9 +17,13 @@ n4.addEventListener("click",selectBtn4)
 n5.addEventListener("click",selectBtn5)
 
 function changePage(){
-
-    first.style.display = 'none'
-    second.style.display='flex'
+    if(x.innerHTML == "0"){
+        window.alert("[ERRO] Please, select an option")
+    }
+    else{
+        first.style.display = 'none'
+        second.style.display='flex'
+    }
 }
 
 function selectBtn1() {
