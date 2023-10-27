@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body,html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #141519;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #202731;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#313b44;
+}
+#istar{
+    height: 15px;
+    width: 15px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 16pt;
+}
+.txt{
+    color: gray;
+}
+#ibtn-num{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-num{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #313b44;    
+}
+.btn-num:hover{
+
+    background-color: gray;
+    color: white;
+    transition: 0.4s;
+}
+.btn-submit {
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #fc7613;
+    outline: none; /* Remova a borda de foco padrão */
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: #fc7613;
+}
+
