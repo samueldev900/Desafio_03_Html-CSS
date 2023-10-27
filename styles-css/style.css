@@ -15,18 +15,18 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #141519;
+    background-color: #070708;
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 300px;
+    height: 320px;
     width: 250px;
     border-radius: 20px;
     padding: 20px;
     color: white;
-    background-color: #202731;
+    background: linear-gradient(to top,#0C0E11,#14181E);
 }
 .star{
     display: flex;
@@ -58,10 +58,10 @@ main{
     height: 40px;
     border-radius: 50%;
     border: none;
-    color: gray;
+    color: rgb(218, 213, 213);
     font-weight: bold;
     cursor: pointer;
-    background-color: #313b44;    
+    background-color: #606B7B;    
 }
 .btn-num:hover{
 
@@ -77,12 +77,31 @@ main{
     font-weight: bold;
     letter-spacing: 2px;
     color: white;
-    background-color: #fc7613;
+    background-color: #C95212;
     outline: none; /* Remova a borda de foco padrão */
 }
 
 .btn-submit:hover {
     background-color: white;
-    color: #fc7613;
+    color: #C95212;
+}
+
+.ranting{
+    align-self: center;
+    width: 170px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 11pt;
+    text-align: center;
+    color: #C95212;
+    background-color: #313b44;
+}
+#thankyou{
+    align-self: center;
+    width: 150px;
+}
+
+.second{
+    display: none;
 }
 

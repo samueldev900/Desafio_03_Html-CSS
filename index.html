@@ -17,7 +17,7 @@
 
   <!-- Rating state start -->
 
-  <main>
+  <main class="first" id="ifirst">
     <div class="star">
       <img id="istar" src="images/icon-star.svg" alt="icon-star">
     </div>
@@ -27,15 +27,26 @@
       to help us improve our offering!
     </p>
     <div id="ibtn-num">
-      <button class="btn-num">1</button> 
-      <button class="btn-num">2</button> 
-      <button class="btn-num">3</button> 
-      <button class="btn-num">4</button> 
-      <button class="btn-num">5</button>
+      <button class="btn-num" id="ibtn-num1">1</button> 
+      <button class="btn-num" id="ibtn-num2">2</button> 
+      <button class="btn-num" id="ibtn-num3">3</button> 
+      <button class="btn-num" id="ibtn-num4">4</button> 
+      <button class="btn-num" id="ibtn-num5">5</button>
     </div>
-    <button class="btn-submit">SUBMIT</button>
+    <input type="button" value="SUBMIT" class="btn-submit" id="ibtn-submit" onclick="changePage()">
   </main>
 
+
+   <main class="second" id="isecond">
+   <img id="thankyou" src="images/illustration-thank-you.svg" alt="thank-you">
+
+    <div class="ranting">You selected <span id="rating">0</span> out of 5</div>
+    <p style="align-self: center;" class="title">Thank you!</p>
+    <p class="txt">
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+    </p>
+ </main>
   <!-- Rating state end -->
 
   
@@ -43,5 +54,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Samuel Oliveira</a>.
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
