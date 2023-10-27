@@ -18,9 +18,6 @@
 
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    body{
-        background-color: red;
-    }
     main{
         height: 370px;
         width: 300px;
@@ -28,16 +25,24 @@
 }
 
 @media screen and (min-width: 481px)  {
+    body{
+        font-size: 13pt;
+    }
     main{
         height: 400px;
         width: 400px;
+        box-shadow: 4px 5px 14px 5px black;
     }
     .btn-num{
         width: 60px;
         height: 60px; 
+        font-size: 14pt;
+    }
+    .btn-num:hover{
+        transform: scale(1.1); /* Aumenta o botão em 10% */
     }
     .title{
-        font-size: 19pt;
+        font-size: 24pt;
 }
 
     .btn-submit {
